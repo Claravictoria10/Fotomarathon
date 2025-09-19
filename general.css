@@ -1,0 +1,95 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 92%;
+  height: auto;
+  display: block;
+  margin: 5px;
+  padding: 0;
+  border-radius: 10px;
+}
+
+body {
+  background-color: #687d91;
+}
+
+main {
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 10px;
+  background-color: #8da9c4;
+}
+
+/*Billedernes fylde*/
+.grid_1 {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+header {
+  border-radius: 20px;
+  margin: 20px;
+  background-color: #8da9c4;
+}
+
+h1 {
+  text-align: center;
+  color: #393e41;
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  color: #393e41;
+  font-size: 20px;
+}
+
+p {
+  text-align: center;
+  color: #393e41;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.menu li a {
+  display: block;
+  width: 100%;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  color: #be110e;
+  background-color: #8da9c4;
+}
+
+.menu li a:hover {
+  background-color: #5f97cb;
+}
+
+/*Forsiden billeders placering*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 5px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+a img {
+  border: 2px solid #393e41;
+}
+
+a:hover img {
+  border-color: red;
+}
